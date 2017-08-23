@@ -17,4 +17,8 @@
     <link rel="stylesheet" href="{{ "assets/css/prism.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "assets/css/share.min.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "assets/css/app.min.css" | prepend: site.baseurl }}">
+
+    {% if page.use_mathjax %}<script type="text/javascript" async
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>{% endif %}
 </head>
