@@ -17,7 +17,7 @@ bio: 'Deep Learning researcher and anime enthusiast'
 avatar: 'assets/img/profile_3.jpg'
 
 # Search
-search: true
+search: false
 
 # Night mode
 nightMode: false
@@ -59,3 +59,8 @@ RSS: false
 
 # Plugins
 plugins: [jekyll-paginate]
+
+sass:
+  sass_dir: dev/sass
+  # style: compressed  # minified
+  style: expanded  # debug
