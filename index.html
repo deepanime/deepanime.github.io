@@ -2,16 +2,14 @@
 layout: default
 home-title: Deep Anime Networks Blog
 description: Teaching Deep Learning Through Anime
+header-img: assets/img/hero_2.jpg
 ---
 
 {% include header.html %}
 
-<div class="g-banner home-banner {{ site.theme-color | prepend: 'banner-theme-' }}" data-theme="{{ site.theme-color }}">
+<div class="g-banner home-banner {% if page.header-img %}header-img{% else %}{{ site.theme-color | prepend: 'banner-theme-' }}{% endif %}" data-theme="{{ site.theme-color }}">
     <h2>{{ page.home-title }}</h2>
     <h3>{{ page.description }}</h3>
-    {% if page.header-img %}
-    <img class="header-img" src="{{ site.baseurl }}{{ page.header-img }}" alt="">
-    {% endif %}
 </div>
 
 <main class="g-container home-content">

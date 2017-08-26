@@ -135,6 +135,11 @@
     }
 }
 
+.header-img {
+    background-image: url('/assets/img/hero_2.jpg');
+    background-size: cover;
+}
+
 .banner-theme-default {
     background: -webkit-linear-gradient(0deg, #3CD5FF, #007AFF);
     background: -o-linear-gradient(0deg, #3CD5FF, #007AFF);
