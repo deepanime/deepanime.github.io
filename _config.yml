@@ -9,6 +9,7 @@ baseurl: '/'
 nav:
   home: '/'
   tags: '/tags.html'
+  deepanime.net: 'http://deepanime.net'
 
 # Author
 author: 'DANA'
@@ -27,7 +28,7 @@ disqus: false
 disqus_url: 'https://liaokeyu.disqus.com/embed.js'
 
 # Share
-social-share: true
+social-share: false
 social-share-items: ['github']
 
 # theme color

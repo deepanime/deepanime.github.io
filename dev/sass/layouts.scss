@@ -61,11 +61,11 @@
             top: 48px;
             right: 1%;
             display: none;
-            width: 120px;
             background-color: #fff;
             border-radius: 2px;
             padding: 8px 16px;
             box-shadow: 0 3px 8px rgba(0, 0, 0, .2);
+            text-align: center;
             &>ul>li{
                 float: none;
                 height: auto;
@@ -125,7 +125,7 @@
     }
 
     .g-banner {
-        padding: 0 20px;
+        padding: 0 50px;
     }
     .home-banner, .tags-banner {
         h3 {
@@ -163,12 +163,14 @@
         h2 {
             padding-top: 180px;
             font-size: 28px;
-            line-height: 48px;
+            line-height: 38px;
+            padding-bottom: 10px;
         }
         h3 {
             margin-top: 2px;
             font-size: 18px;
-            letter-spacing: 6px;
+            letter-spacing: 2px;
+            line-height: 25px;
         }
         .header-img {
             width: 695px;
