@@ -408,3 +408,10 @@ Any types of contribution are welcome. Thanks.
 ### License 许可证
 
 Jekyll-Theme-H2O is licensed under [MIT](https://github.com/kaeyleo/jekyll-theme-H2O/blob/master/LICENSE).
+
+### Other
+
+#### Hero image credit
+* Social network image source: https://ds.lclark.edu/mdibblekahn/wp-content/uploads/sites/252/2015/10/social-network.png
+* Anime city image source: http://hdwall.us/city/cityscapes-futuristic-buildings-surreal-imperial-boy-desktop-hd-wallpaper-891136/
+	* Artist: Teikoku Shounen
