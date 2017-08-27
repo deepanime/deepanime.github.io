@@ -415,3 +415,11 @@ Jekyll-Theme-H2O is licensed under [MIT](https://github.com/kaeyleo/jekyll-theme
 * Social network image source: https://ds.lclark.edu/mdibblekahn/wp-content/uploads/sites/252/2015/10/social-network.png
 * Anime city image source: http://hdwall.us/city/cityscapes-futuristic-buildings-surreal-imperial-boy-desktop-hd-wallpaper-891136/
 	* Artist: Teikoku Shounen
+
+
+#### Compiling Sass commands
+
+```
+sass dev/sass/app.scss:assets/css/app.min.css --style compressed
+sass dev/sass/app.scss:assets/css/app.min.css --style compressed --watch
+```

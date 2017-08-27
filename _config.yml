@@ -60,8 +60,3 @@ RSS: false
 
 # Plugins
 plugins: [jekyll-paginate]
-
-sass:
-  sass_dir: dev/sass
-  # style: compressed  # minified
-  style: expanded  # debug
