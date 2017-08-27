@@ -4,6 +4,7 @@ title: 'Hello World!'
 date: 2017-08-26
 tags: news
 use_mathjax: true
+cover: /assets/post_img/2017-08-26/misunderstanding.jpg
 ---
 
 Hello, reader! You've just stumbled onto the first post of the Deep Anime Networks Blog! I bet you're wondering what on earth this site is about, so let me explain.

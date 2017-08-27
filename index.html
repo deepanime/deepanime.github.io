@@ -29,7 +29,7 @@ header-img: assets/img/hero_2.jpg
                     <h3 class="post-subtitle">{{ post.subtitle }}</h3>
                     {% endif %}
                     {% if post.subtitle.size==0 or post.subtitle==nil %} 
-                    <p class="post-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 126}}</p>
+                    <p class="post-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncatewords: 40}}</p>
                     {% endif %}
                 </section>
                 <footer class="post-meta">
@@ -40,7 +40,7 @@ header-img: assets/img/hero_2.jpg
                             {% endfor %}
                         {% endif %}
                     </div>
-                    <time class="post-date" datetime="{{ post.date | date:"%y-%m-%d" }}">{{ post.date | date_to_string }}</time>
+                    <time class="post-date" datetime="{{ post.date | date:"%y-%m-%d" }}">{{ post.date | date_to_string | date:"%m/%d/%y" }}</time>
                 </footer>
             </article>
         {% endfor %}
