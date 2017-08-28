@@ -41,6 +41,7 @@ postPatterns: 'circuitBoard'
 sns:
   github: '//github.com/deepanime'
   mal: '//myanimelist.net/animelist/roan_wolf&view=list'
+  reddit: '//reddit.com/user/roan_wolf'
 
 # Tags
 recommend-tags: true # whether or not display recommend-tags on the sidebar
