@@ -40,6 +40,7 @@ postPatterns: 'circuitBoard'
 # SNS settings: weibo, zhihu, twitter, instagrame, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
   github: '//github.com/deepanime'
+  mal: '//myanimelist.net/animelist/roan_wolf&view=list'
 
 # Tags
 recommend-tags: true # whether or not display recommend-tags on the sidebar

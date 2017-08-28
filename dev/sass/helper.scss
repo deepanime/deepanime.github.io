@@ -143,44 +143,26 @@ $post-content-w: 720px;
             color: #7B848F;
         }
     }
-    .icon-weibo:hover {
-        color: #F85555;
-    }
-    .icon-zhihu:hover {
-        color: #1892F5;
-    }
-    .icon-twitter:hover {
+    [class*="icon-twitter"]:hover {
         color: #39A6F8;
     }
-    .icon-instagram:hover {
+    [class*="icon-instagram"]:hover {
         color: #D92580;
     }
-    .icon-juejin:hover {
-        color: #1682FC;
+    [class*="icon-github"]:hover {
+        color: #24292E;
     }
-    .icon-douban:hover {
-        color: #2E963D;
-    }
-    .icon-github:hover {
-        color: #575757;
-    }
-    .icon-facebook:hover {
+    [class*="icon-facebook"]:hover {
         color: #3D5A9A;
     }
-    .icon-dribble:hover {
-        color: #F26798;
-    }
-    .icon-jianshu:hover {
-        color: #EA6F5A;
-    }
-    .icon-uicn:hover {
-        color: #3498DB;
-    }
-    .icon-linkedin:hover {
+    [class*="icon-linkedin"]:hover {
         color: #3181BE;
     }
-    .icon-medium:hover {
+    [class*="icon-medium"]:hover {
         color: #0BE370;
+    }
+    [class*="icon-mal"]:hover {
+        color: #2E50A1;
     }
     
 }
