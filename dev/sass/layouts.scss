@@ -261,6 +261,9 @@
         }
         img {
             margin: 0 auto 16px;
+            +span {
+                margin-top: -7px;
+            }
         }
         strong {
             font-weight: 400;
