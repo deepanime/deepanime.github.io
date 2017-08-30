@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: "socialicious-ext";
-  src:url("/assets/fonts/socialicious-ext.eot");
-  src:url("/assets/fonts/socialicious-ext.eot?#iefix") format("embedded-opentype"),
-    url("/assets/fonts/socialicious-ext.woff") format("woff"),
-    url("/assets/fonts/socialicious-ext.ttf") format("truetype"),
-    url("/assets/fonts/socialicious-ext.svg#socialicious-ext") format("svg");
+  src:url("fonts/socialicious-ext.eot");
+  src:url("fonts/socialicious-ext.eot?#iefix") format("embedded-opentype"),
+    url("fonts/socialicious-ext.woff") format("woff"),
+    url("fonts/socialicious-ext.ttf") format("truetype"),
+    url("fonts/socialicious-ext.svg#socialicious-ext") format("svg");
   font-weight: normal;
   font-style: normal;
 
@@ -265,4 +265,7 @@
 }
 .icon-reddit-sign:before {
   content: "\2e";
+}
+.icon-menu:before {
+  content: "\2f";
 }
