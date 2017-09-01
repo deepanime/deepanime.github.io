@@ -3,8 +3,7 @@ title: 'Deep Anime Networks Blog'
 description: 'Blog for the Deep Anime Networks website hosted at deepanime.net.'
 keyword: 'deep learning, machine learning, artificial intelligence, computer vision, machine vision, anime, Japanese animation'
 url: 'http://blog.deepanime.net' # your host
-baseurl: 
-funk: 'funk'
+baseurl: ''
 
 # Navigation links
 nav:

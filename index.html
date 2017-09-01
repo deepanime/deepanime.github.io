@@ -36,7 +36,7 @@ header-img: assets/img/hero_2.jpg
                     <div class="post-tags">
                         {% if post.tags.size > 0 %} 
                             {% for tag in post.tags  %}
-                        <a href="{{ site.baseurl }}tags.html#{{ tag }}" class="post-tag">{{ tag }}</a>
+                        <a href="{{ site.baseurl }}/tags.html#{{ tag }}" class="post-tag">{{ tag }}</a>
                             {% endfor %}
                         {% endif %}
                     </div>
@@ -55,7 +55,7 @@ header-img: assets/img/hero_2.jpg
         <div class="g-sidebar">
             <section class="author-card">
                 <div class="avatar">
-                    <img src="{{ site.baseurl }}{{ site.avatar }}" alt="">
+                    <img src="{{ site.baseurl }}/{{ site.avatar }}" alt="">
                 </div>
                 <div class="author-name" rel="author">{{ site.author }}</div>
                 <div class="bio">
@@ -80,7 +80,7 @@ header-img: assets/img/hero_2.jpg
                     {% if forloop.index > site.recommend-condition-size %}
                         {% break %}
                     {% endif %}
-                <a href="{{ site.baseurl }}tags.html#{{ tag[0] }}" class="tag">{{ tag[0]}}</a>
+                <a href="{{ site.baseurl }}/tags.html#{{ tag[0] }}" class="tag">{{ tag[0]}}</a>
                 {% endfor %}
             </section>
             {% endif %}
