@@ -24,8 +24,8 @@ search: false
 nightMode: false
 
 # Comments
-disqus: false
-disqus_url: 'https://liaokeyu.disqus.com/embed.js'
+disqus: true
+disqus_url: 'https://deep-anime-networks-blog.disqus.com/embed.js'
 
 # Share
 social-share: false
