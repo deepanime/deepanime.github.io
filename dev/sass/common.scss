@@ -897,3 +897,21 @@
         color: #61BDCF;
     }
 }
+
+.scroll-top-btn {
+    position: fixed;
+    z-index: 99;
+    right: 5%;
+    bottom: 50px;
+    display: none;
+    i {
+        font-size: 50px;
+    }
+    .scroll-top-btn-icon {
+        display: block;
+        height: 50px;
+        width: 50px;
+        background: url('../icons/scrolltop.svg') no-repeat center;
+        background-size: 100% 100%;
+    }
+}

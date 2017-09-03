@@ -7,6 +7,7 @@
 <![endif]-->
 <input id="nm-switch" type="hidden" value="{{ site.nightMode }}">
 
+{% include scroll-top-btn.html %}
 {% include header.html %}
 
 <header class="g-banner post-header {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }} {% unless page.cover %}post-no-cover{% endunless %}" data-theme="{{ site.theme-color }}">
