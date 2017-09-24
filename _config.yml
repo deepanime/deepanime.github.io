@@ -58,7 +58,5 @@ highlighter: rouge
 kramdown:
   input: GFM
 
-RSS: false
-
 # Plugins
 plugins: [jekyll-paginate]
